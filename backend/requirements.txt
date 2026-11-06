@@ -1,0 +1,7 @@
+Django>=6.1,<6.2
+psycopg[binary]>=3.3.8
+channels>=4.3.2
+uvicorn[standard]>=0.54
+django-storages[s3]>=1.14.6
+regex>=2026.9.29
+langcodes>=3.5.1
