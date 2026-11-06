@@ -1,5 +1,36 @@
+# Secrets
 .env
+.env.*
+!.env.example
+
+# Python
 __pycache__/
 *.pyc
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Django
+backend/staticfiles/
+
+# Node
 node_modules/
 dist/
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Claude Code (local settings only)
+.claude/settings.local.json
